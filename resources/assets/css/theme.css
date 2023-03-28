@@ -15781,6 +15781,10 @@ label {
 .bg-gradient-info {
     background-image: linear-gradient(310deg, var(--bs-gradient-info-right), var(--bs-gradient-info-left));
 }
+.bg-info1{
+    background-image: url("imgs/articles/1.jpg") ;
+
+}
 .bg-gradient-warning {
     background-image: linear-gradient(310deg, var(--bs-gradient-warning-right), var(--bs-gradient-warning-left));
 }

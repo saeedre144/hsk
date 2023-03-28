@@ -5,18 +5,18 @@
 
 <header class="">
     <div class="page-header min-vh-75">
-        <span class="mask bg-gradient-info opacity-4"></span>
+        <span class="mask bg-gradient-info opacity-4 bg-info"></span>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 my-auto text-white text-xl-left">
                     <h1 class="text-dark display-2
                             font-weight-bolder mb-4">Find your own happiness</h1>
                     <p class="text-dark mb-0">Get 50% Off for your first purchase</p>
-                    <p class="text-dark font-weight-bolder text-lg">SKY TRADE</p>
+                    <p class="text-dark font-weight-bolder text-lg">HISKY TRADE</p>
                     <button  class="btn bg-gradient-primary mt-3 hover:bg-gray-700 ">Show Products</button>
                 </div>
                 <div class="col-lg-6">
-                    <div class="positio-absolute rounded-circle end-4 top-0 mt-n4 shadow-lg d-xl-block d-none" style="background-image: url('https://images.unsplash.com/photo-1617176756162-447320192d98?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1180&amp;q=80');width: 600px;height: 600px; background-position: center;background-size: cover;">
+                    <div class="positio-absolute rounded-circle end-4 top-0 mt-n4 shadow-lg d-xl-block d-none hover:scale-105 transition duration-700 ease-in-out" style="background-image: url('imgs/ex2.jpg');width: 600px;height: 600px; background-position: center;background-size: cover;">
                     </div>
                 </div>
 
@@ -68,20 +68,20 @@
     <div class="container">
         <div class="row mb-4">
             <div class="col-12 text-center">
-                <h3 class="mb-5" spellcheck="false">Deals of the Day</h3>
+                <h3 class="mb-5 font-semibold ">Products</h3>
             </div>
             <div class="col-lg-3 mb-lg-0 mb-4">
                 <div class="card">
                     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
                         <a href="javascript:;" class="d-block">
-                            <img src="https://images.unsplash.com/photo-1548460464-2a68877c7a5f?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cm9zZXxlbnwwfDJ8MHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60" class="img-fluid border-radius-lg shadow hover:scale-110">
+                            <img src="imgs/singles/1.jpg" class="img-fluid border-radius-lg shadow hover:scale-110">
                         </a>
                     </div>
 
                     <div class="card-body pt-3">
                         <div class="d-flex align-items-center">
                             <div>
-                                <span class="text-sm">Flower</span>
+                                <span class="text-sm">Bottle</span>
                                 <h4 class="card-description font-weight-bolder text-dark mb-4">
                                     Rose
                                 </h4>
@@ -96,7 +96,7 @@
                             <h5 class="mb-0 font-weight-bolder">$25.40</h5>
                             <h5 class="mb-0 opacity-4 text-sm ms-2"><strike>$29.00</strike></h5>
                         </div>
-                        <a href="javascript:;" class="btn btn-outline-dark mb-0">Add to cart</a>
+                        <a href="javascript:;" class="btn btn-outline-dark mb-0">information</a>
 
                     </div>
                 </div>
@@ -105,14 +105,14 @@
                 <div class="card">
                     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
                         <a href="javascript:;" class="d-block">
-                            <img src="https://images.unsplash.com/photo-1528475563668-e15742001b92?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=3280&amp;q=80" class="img-fluid border-radius-lg shadow hover:scale-110">
+                            <img src="imgs/singles/2.jpg" class="img-fluid border-radius-lg shadow hover:scale-110">
                         </a>
                     </div>
 
                     <div class="card-body pt-3">
                         <div class="d-flex align-items-center">
                             <div>
-                                <span class="text-sm">Flower</span>
+                                <span class="text-sm">Bottle</span>
                                 <h4 class="card-description font-weight-bolder text-dark mb-4">
                                     Cactus</h4>
                             </div>
@@ -126,7 +126,7 @@
                             <h5 class="mb-0 font-weight-bolder">$19.00</h5>
                             <h5 class="mb-0 opacity-4 text-sm ms-2"><strike>$29.00</strike></h5>
                         </div>
-                        <a href="javascript:;" class="btn btn-outline-dark mb-0">Add to cart</a>
+                        <a href="javascript:;" class="btn btn-outline-dark mb-0">information</a>
 
                     </div>
                 </div>
@@ -135,14 +135,14 @@
                 <div class="card">
                     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
                         <a href="javascript:;" class="d-block">
-                            <img src="https://images.unsplash.com/photo-1589292514550-ffa367e28682?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHR1bGlwfGVufDB8MnwwfHw%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60" class="img-fluid border-radius-lg shadow hover:scale-110">
+                            <img src="imgs/singles/3.jpg" class="img-fluid border-radius-lg shadow hover:scale-110">
                         </a>
                     </div>
 
                     <div class="card-body pt-3">
                         <div class="d-flex align-items-center">
                             <div>
-                                <span class="text-sm">Flower</span>
+                                <span class="text-sm">Bottle</span>
                                 <h4 class="card-description font-weight-bolder text-dark mb-4">
                                     Tulip</h4>
                             </div>
@@ -156,7 +156,7 @@
                             <h5 class="mb-0 font-weight-bolder">$9.90</h5>
                             <h5 class="mb-0 opacity-4 text-sm ms-2"><strike>$15.00</strike></h5>
                         </div>
-                        <a href="javascript:;" class="btn btn-outline-dark mb-0">Add to cart</a>
+                        <a href="javascript:;" class="btn btn-outline-dark mb-0">information</a>
 
                     </div>
                 </div>
@@ -165,14 +165,14 @@
                 <div class="card">
                     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
                         <a href="javascript:;" class="d-block">
-                            <img src="https://images.unsplash.com/photo-1502977249166-824b3a8a4d6d?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1180&amp;q=80" class="img-fluid border-radius-lg shadow hover:scale-110">
+                            <img src="imgs/singles/4.jpg" class="img-fluid border-radius-lg shadow hover:scale-110">
                         </a>
                     </div>
 
                     <div class="card-body pt-3">
                         <div class="d-flex align-items-center">
                             <div>
-                                <span class="text-sm">Flower</span>
+                                <span class="text-sm">Bottle</span>
                                 <h4 class="card-description font-weight-bolder text-dark mb-4">
                                     Lily</h4>
                             </div>
@@ -186,7 +186,7 @@
                             <h5 class="mb-0 font-weight-bolder">$39.20</h5>
                             <h5 class="mb-0 opacity-4 text-sm ms-2"><strike>$59.00</strike></h5>
                         </div>
-                        <a href="javascript:;" class="btn btn-outline-dark mb-0">Add to cart</a>
+                        <a href="javascript:;" class="btn btn-outline-dark mb-0">information</a>
 
                     </div>
                 </div>
@@ -237,7 +237,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card h-100 mb-4 min-height-250 card-background align-items-start">
-                    <div class="full-background" style="background-image: url('https://images.unsplash.com/photo-1495908333425-29a1e0918c5f?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1180&amp;q=80')"></div>
+                    <div class="full-background" style="background-image: url('imgs/singles/1.jpg')"></div>
                     <div class="card-body w-100 z-index-3 text-center d-flex flex-column align-items-center justify-content-center">
                         <h4 class="text-white font-weight-bolder">Garden</h4>
                         <a href="javascript:;" class="btn btn-outline-white mb-0">View all</a>
@@ -247,7 +247,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card h-100 mb-4 min-height-250 card-background align-items-start">
-                    <div class="full-background" style="background-image: url('https://images.unsplash.com/photo-1499916078039-922301b0eb9b?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zmxvd2VycyUyMGhvdXNlfGVufDB8MnwwfHw%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60')"></div>
+                    <div class="full-background" style="background-image: url('imgs/singles/2.jpg')"></div>
                     <div class="card-body w-100 z-index-3 text-center d-flex flex-column align-items-center justify-content-center">
                         <h4 class="text-white font-weight-bolder">House</h4>
                         <a href="javascript:;" class="btn btn-outline-white mb-0">View all</a>
@@ -257,7 +257,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card h-100 mb-4 min-height-250 card-background align-items-start">
-                    <div class="full-background" style="background-image: url('https://images.unsplash.com/photo-1625552186152-668cd2f0b707?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1480&amp;q=80')"></div>
+                    <div class="full-background" style="background-image: url('imgs/singles/3.jpg')"></div>
                     <div class="card-body w-100 z-index-3 text-center d-flex flex-column align-items-center justify-content-center">
                         <h4 class="text-white font-weight-bolder">Party</h4>
                         <a href="javascript:;" class="btn btn-outline-white mb-0">View all</a>
@@ -267,7 +267,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card h-100 mb-4 min-height-250 card-background align-items-start">
-                    <div class="full-background" style="background-image: url('https://images.unsplash.com/photo-1607083206968-13611e3d76db?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2115&amp;q=80')"></div>
+                    <div class="full-background" style="background-image: url('imgs/singles/4.jpg')"></div>
                     <div class="card-body w-100 z-index-3 text-center d-flex flex-column align-items-center justify-content-center">
                         <h4 class="text-white font-weight-bolder">50% OFF</h4>
                         <a href="javascript:;" class="btn btn-outline-white mb-0">View all</a>
@@ -374,7 +374,7 @@
                 <div class="card">
                     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
                         <a href="javascript:;" class="d-block">
-                            <img src="https://images.unsplash.com/photo-1488928741225-2aaf732c96cc?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1770&amp;q=80" class="img-fluid border-radius-lg">
+                            <img src="imgs/articles/1.jpg" class="img-fluid border-radius-lg">
                         </a>
                     </div>
 
@@ -400,7 +400,7 @@
                 <div class="card">
                     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
                         <a href="javascript:;" class="d-block">
-                            <img src="https://images.unsplash.com/photo-1460533893735-45cea2212645?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1856&amp;q=80" class="img-fluid border-radius-lg">
+                            <img src="imgs/articles/2.jpg" class="img-fluid border-radius-lg">
                         </a>
                     </div>
 
@@ -426,7 +426,7 @@
                 <div class="card">
                     <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
                         <a href="javascript:;" class="d-block">
-                            <img src="https://images.unsplash.com/photo-1509586069852-0674f4eb7826?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1770&amp;q=80" class="img-fluid border-radius-lg">
+                            <img src="imgs/articles/3.jpg" class="img-fluid border-radius-lg ">
                         </a>
                     </div>
 

@@ -15,28 +15,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
-Route::get('/home', function () {
+
+Route::get('/', function () {
     return view('front.home');
-});
+})->name('home');
+
 Route::get('/contact', function () {
     return view('front.contact');
-});
+})->name('contact');
+
 Route::get('/about', function () {
     return view('front.about');
+})->name('about');
+Route::get('/overview', function () {
+    return view('front.overview');
 });
-
-
-Route::any('category/create', [CategoryController::class, 'createCategory'])->name('createCategory');
-Route::get('categories', [CategoryController::class, 'allCategories'])->name('allCategories');
-Route::any('category/edit/{id}', [CategoryController::class, 'editCategory'])->name('editCategory');
-Route::get('category/delete/{id}', [CategoryController::class, 'deleteCategory'])->name('deleteCategory');
-
-
-
-
 
 
 
@@ -51,6 +47,15 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+
+    //admin routes
+
+    Route::any('category/create', [CategoryController::class, 'createCategory'])->name('createCategory');
+    Route::get('categories', [CategoryController::class, 'allCategories'])->name('allCategories');
+    Route::any('category/edit/{id}', [CategoryController::class, 'editCategory'])->name('editCategory');
+    Route::get('category/delete/{id}', [CategoryController::class, 'deleteCategory'])->name('deleteCategory');
+
+    Route::resource('admin/posts',\App\Http\Controllers\PostController::class);
 });
 
 require __DIR__.'/auth.php';

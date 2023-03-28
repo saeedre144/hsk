@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Shishe  Website</title>
+    <title>HSK TRADE</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
     <link href="https://demos.creative-tim.com/soft-ui-design-system/assets/css/nucleo-icons.css" rel="stylesheet" />
@@ -13,7 +13,10 @@
 </head>
 
 <body>
+
 {{--upper nav --}}
+
+
 
 <div class="navbar bg-gradient-dark py-1">
     <div class="container">
@@ -77,19 +80,21 @@
             </div>
             <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div class="flex flex-shrink-0 items-center">
-                    <img class="block h-8 w-auto lg:hidden" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
-                    <img class="hidden h-8 w-auto lg:block" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
+                    <a href="{{ route('home') }}">
+                        <img class="block h-14 mx-2 w-auto lg:hidden" src="{{asset('imgs/logo.png')}}" alt="Hsktrade.com">
+                        <img class="hidden h-10 w-auto lg:block" src="{{asset('imgs/logo.png')}}" alt="Hsktrade.com">
+                    </a>
                 </div>
                 <div class="hidden sm:ml-6 sm:block ">
                     <div class="flex space-x-4">
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                        <a href="#" class=" text-black rounded-md px-3 py-2 text-sm text-bold hover:bg-indigo-500 hover:text-white" aria-current="page">Products</a>
+                        <a href="#" class=" text-gray-800 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2  font-medium " aria-current="page">Products</a>
 
-                        <a href="#" class="text-gray-800 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contact Us</a>
+                        <a href="{{ route('contact') }}" class="text-gray-800 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2  font-medium  {{ Route::is('contact') ? 'bg-gray-200 underline' : '' }}"  >Contact Us</a>
 
-                        <a href="#" class="text-gray-800 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About Us</a>
+                        <a href="{{ route('about') }}" class="text-gray-800 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2  font-medium {{ Route::is('about') ? 'bg-gray-200 underline' : '' }}">About Us</a>
 
-                        <a href="{{url('/')}}" class="text-gray-800 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Home Page</a>
+                        <a href="{{ route('home') }}" class="text-gray-800 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2  font-medium {{ Route::is('home') ? 'bg-gray-200 underline' : '' }}">Home Page</a>
                     </div>
                 </div>
             </div>
@@ -129,11 +134,12 @@
 
 
 
+
 @yield('content')
 
 
 
-<section class="mt-6 py-5 bg-gradient-dark position-relative" style="background-image:url(https://images.unsplash.com/photo-1516528387618-afa90b13e000?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1770&amp;q=80); background-size: cover; background-position: center center;">
+<section class="mt-6 py-5 bg-gradient-dark position-relative" style="background-image:url('imgs/articles/2.jpg'); background-size: cover; background-position: center center;">
     <span class="mask bg-gradient-dark opacity-8"></span>
     <div class="container position-relative z-index-2">
         <div class="row">
@@ -145,6 +151,8 @@
         </div>
     </div>
 </section>
+
+
 <footer class="footer py-5">
     <div class="container">
         <div class="row">
