@@ -88,7 +88,7 @@
                 <div class="hidden sm:ml-6 sm:block ">
                     <div class="flex space-x-4">
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                        <a href="#" class=" text-gray-800 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2  font-medium " aria-current="page">Products</a>
+                        <a href="{{route('product.glass')}}" class=" text-gray-800 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2  font-medium " aria-current="page">Products</a>
 
                         <a href="{{ route('contact') }}" class="text-gray-800 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2  font-medium  {{ Route::is('contact') ? 'bg-gray-200 underline' : '' }}"  >Contact Us</a>
 

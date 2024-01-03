@@ -34,6 +34,9 @@ Route::get('/overview', function () {
     return view('front.overview');
 });
 
+Route::get('products/glasses',[\App\Http\Controllers\Front\PostController::class, 'items'] )->name('product.glass');
+Route::get('products/glasses/{post}',[\App\Http\Controllers\Front\PostController::class, 'singleitem'] );
+
 
 
 
@@ -55,7 +58,7 @@ Route::middleware('auth')->group(function () {
     Route::any('category/edit/{id}', [CategoryController::class, 'editCategory'])->name('editCategory');
     Route::get('category/delete/{id}', [CategoryController::class, 'deleteCategory'])->name('deleteCategory');
 
-    Route::resource('admin/posts',\App\Http\Controllers\PostController::class);
+    Route::resource('admin/posts', \App\Http\Controllers\Admin\PostController::class);
 });
 
 require __DIR__.'/auth.php';
