@@ -39,7 +39,7 @@
             <span class="text-sm text-white ms-2">+1 3232 4343</span>
 
             <i class="fa fa-envelope text-sm text-white ms-4" aria-hidden="true"></i>
-            <span class="text-sm text-white ms-2 me-lg-0 me-auto">Saeed@Saeed.com</span>
+            <span class="text-sm text-white ms-2 me-lg-0 me-auto">info@hsktrade.com</span>
         </div>
     </div>
 </div>

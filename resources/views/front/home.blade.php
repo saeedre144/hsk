@@ -10,8 +10,8 @@
             <div class="row">
                 <div class="col-lg-6 my-auto text-white text-xl-left">
                     <h1 class="text-dark display-2
-                            font-weight-bolder mb-4">Find your own happiness</h1>
-                    <p class="text-dark mb-0">Get 50% Off for your first purchase</p>
+                            font-weight-bolder mb-4">We have the best quality</h1>
+                    <p class="text-dark mb-0">Hurry up your first purchase</p>
                     <p class="text-dark font-weight-bolder text-lg">HISKY TRADE</p>
                     <button  class="btn bg-gradient-primary mt-3 hover:bg-gray-700 ">Show Products</button>
                 </div>
@@ -30,7 +30,7 @@
                     <i class="fa fa-bus fa-2x text-dark" aria-hidden="true"></i>
                     <div class="ms-3">
                         <h6 class="mb-0">Free Shipping</h6>
-                        <p class="text-sm mb-0">On order bigger than $50</p>
+                        <p class="text-sm mb-0">On big orders</p>
                     </div>
                 </div>
             </div>
